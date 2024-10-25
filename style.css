@@ -1,0 +1,78 @@
+
+.technologies{
+    background-image: linear-gradient(rgb(255, 0, 242),rgb(0, 255, 170));
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-areas:"h1 h1 h1 h1" 
+    "html css JAVASCRIPT sass"
+    "JQuery React . ." ;
+}
+
+.tech-{
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 2px;
+}
+img {
+    width: 40%;
+    border-radius: 5px;
+    }
+    h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    }
+    p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    }
+
+h1{
+    text-align: center;
+    grid-area: h1;
+}
+
+.item1{
+    grid-area: html;
+}
+
+.item2{
+    grid-area: css;
+}
+.item3{
+    grid-area: JAVASCRIPT;
+}
+.item4{
+    grid-area: sass;
+}
+.item5{
+    grid-area: JQuery;
+}
+.item6{
+    grid-area: React;
+}
+
+.button{
+    padding: 15px 25px;
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: blueviolet;
+}
+.tech-:hover{
+    padding: 20px;
+}
